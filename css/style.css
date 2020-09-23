@@ -9,6 +9,7 @@
 #container-all {
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 
 /* container parte in alto */
@@ -18,16 +19,43 @@
   background-color: lightgrey;
 }
 
+#block1 {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  top: 0%;
+  left: 20%;
+  background-color: white;
+}
+
 #container2 {
   position: relative;
   height: 100px;
   background-color: grey;
 }
 
+#block2 {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  top: 0%;
+  left: 20%;
+  background-color: green;
+}
+
 #container3 {
   position: relative;
   height: 600px;
   background-color: brown;
+}
+
+#block3 {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  top: 0%;
+  left: 20%;
+  background-color: pink;
 }
 
 /* container parte centrale */
