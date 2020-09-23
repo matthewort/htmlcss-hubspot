@@ -26,10 +26,18 @@
   position: absolute;
   height: 100%;
   width: 60%;
-  top: 0%;
+  top: 10%;
   left: 20%;
   background-color: white;
 }
+
+/* #content1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+} */
 
 #contact {
   position: absolute;
@@ -49,6 +57,17 @@
   right: 15%;
 }
 
+#about {
+  position: absolute;
+  top: 0%;
+  right: 3%;
+}
+
+#hamburger {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
 
 /* container2 */
 #container2 {
