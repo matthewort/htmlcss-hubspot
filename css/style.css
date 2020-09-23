@@ -11,6 +11,7 @@
   height: 100vh;
 }
 
+/* container parte in alto */
 #container1 {
   position: relative;
   height: 100px;
@@ -25,12 +26,31 @@
 
 #container3 {
   position: relative;
-  height: 550px;
+  height: 600px;
   background-color: brown;
 }
 
+/* container parte centrale */
 #container4 {
   position: relative;
-  height: 100px;
-  background-color: yellow;
+  height: 1200px;
+  background-color: lightgrey;
+}
+
+#container5 {
+  position: relative;
+  height: 650px;
+  background-color: blue;
+}
+
+#container6 {
+  position: relative;
+  height: 650px;
+  background-color: darkblue;
+}
+
+#container7 {
+  position: relative;
+  height: 500px;
+  background-color: grey;
 }
