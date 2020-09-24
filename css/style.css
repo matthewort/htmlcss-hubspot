@@ -228,4 +228,30 @@ li {
   height: 1500px;
   width: 100%;
   background-color: #f4f9fd;
+  padding-left: 30%;
+}
+
+.subcontainer4 {
+  height: 35%;
+  width: 60%;
+  float: left;
+  background-color: green;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+#cube {
+  height: 240px;
+  width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#powa {
+  font-size: 40px;
 }
