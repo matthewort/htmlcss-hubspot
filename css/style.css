@@ -134,6 +134,7 @@ li {
 /* MAIN */
 .container3 {
   height: 694px;
+  width: 100%;
   background-color: lightblue;
 }
 
@@ -143,12 +144,33 @@ li {
   clear: both;
 }
 
+/* immagine di sfondo */
 #jumbo {
   height: 100%;
   width: 100%;
   background-image: url("../img/jumbotron.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: contain;
+}
 
+/* sottocontainer main */
+.subcontainer3 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color: orange;
+}
+
+
+
+/* lista opzioni container3 */
+.words-left3 {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding-top: 1.5%;
+  background-color: white;
 }
