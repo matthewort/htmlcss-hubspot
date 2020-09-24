@@ -132,6 +132,7 @@ li {
 }
 
 /* MAIN */
+/* SEZIONE SOPRA */
 .container3 {
   height: 694px;
   width: 100%;
@@ -174,9 +175,57 @@ li {
   width: 50%;
   float: left;
   padding-top: 1.5%;
-  background-color: orange;
+  padding-right: 1.5%;
+  background-color: transparent;
 }
 
 #grow {
   font-size: 55px;
+}
+
+#marketing {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+.button {
+  background-color: #fe775a;
+  border-radius: 5px;
+  padding: 6px 15px;
+  text-align: center;
+  color: white;
+  border: 1px solid #fe775a;
+}
+
+.buttonopp {
+  background-color: white;
+  border-radius: 5px;
+  padding: 6px 15px;
+  text-align: center;
+  color: #fe775a;
+  border: 1px solid #fe775a;
+}
+
+.bigbutton {
+  padding: 15px 30px;
+}
+
+
+.button:hover {
+  background-color: white;
+  color: #fe775a;
+}
+
+.buttonopp:hover {
+  background-color: #fe775a;
+  color: white;
+}
+/* fine lista opzioni container 3 */
+/* FINE SEZIONE SOPRA */
+
+/* SEZIONE CENTRALE */
+.container4 {
+  height: 1500px;
+  width: 100%;
+  background-color: #f4f9fd;
 }
