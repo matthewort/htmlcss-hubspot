@@ -13,158 +13,65 @@
   font-family: tahoma;
 }
 
-/* HEADER */
-
-/* container1 */
-#container1 {
-  position: relative;
-  height: 100px;
-  background-color: lightgrey;
+#container-all::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-#block1 {
-  position: absolute;
-  height: 100%;
-  width: 60%;
-  top: 10%;
-  left: 20%;
-  background-color: white;
-}
-
-/* #content1 {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-} */
-
-#contact {
-  position: absolute;
-  top: 0%;
-  left: 10%;
-}
-
-#log {
-  position: absolute;
-  top: 0%;
-  right: 30%;
-}
-
-#support {
-  position: absolute;
-  top: 0%;
-  right: 15%;
-}
-
-#about {
-  position: absolute;
-  top: 0%;
-  right: 3%;
-}
-
-#hamburger {
-  position: absolute;
-  top: 0%;
-  right: 0%;
-}
-
-/* container2 */
-#container2 {
-  position: relative;
-  height: 100px;
-  background-color: grey;
-}
-
-#block2 {
-  position: absolute;
-  height: 100%;
-  width: 60%;
-  top: 0%;
-  left: 20%;
-  background-color: green;
-}
-
-/* container3 */
-#container3 {
-  position: relative;
-  height: 600px;
+body {
   background-color: brown;
 }
 
-#block3 {
-  position: absolute;
-  height: 100%;
-  width: 60%;
-  top: 0%;
-  left: 20%;
-  background-color: pink;
-}
-
-/* MAIN */
-
-/* container4 */
-#container4 {
-  position: relative;
-  height: 1200px;
-  background-color: lightgrey;
-}
-
-#block4 {
-  position: absolute;
-  height: 100%;
-  width: 60%;
-  top: 0%;
-  left: 20%;
-  background-color: orange;
-}
-
-/* container5 */
-#container5 {
-  position: relative;
-  height: 900px;
-  background-color: blue;
-}
-
-#block5 {
-  position: absolute;
-  height: 100%;
-  width: 60%;
-  top: 0%;
-  left: 20%;
+/* NAV SOPRA */
+/* container nav sopra */
+.container1 {
+  height: 80px;
   background-color: lightblue;
 }
 
-/* container6 */
-#container6 {
+/* sottocontainer nav sopra */
+.subcontainer1 {
+  height: 100%;
+  width: 100%;
   position: relative;
-  height: 800px;
-  background-color: darkblue;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: green;
 }
 
-#block6 {
-  position: absolute;
+.subcontainer1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* lista opzioni container1 */
+.words-left1 {
   height: 100%;
-  width: 60%;
-  top: 0%;
-  left: 20%;
+  width: 50%;
+  float: left;
+  padding-top: 2.5%;
   background-color: white;
 }
 
-/* FOOTER */
+.words-right1 {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding-top: 2.5%;
+  background-color: white;
+  text-align: right;
+}
+/* lista opzioni container1 */
+/* FINE NAV SOPRA */
 
-/* container7 */
-#container7 {
-  position: relative;
-  height: 700px;
-  background-color: grey;
+ul {
+  list-style-type: none;
 }
 
-#block7 {
-  position: absolute;
-  height: 100%;
-  width: 60%;
-  top: 0%;
-  left: 20%;
-  background-color: purple;
+li {
+  display: inline-block;
+  margin-right: 2%;
+  margin-left: 2%;
 }
