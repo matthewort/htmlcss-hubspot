@@ -131,6 +131,11 @@ li {
   margin-left: 2%;
 }
 
+p {
+  line-height: 25px;
+}
+
+
 /* MAIN */
 /* SEZIONE SOPRA */
 .container3 {
@@ -224,18 +229,18 @@ li {
 /* FINE SEZIONE SOPRA */
 
 /* SEZIONE CENTRALE */
+/* sezione centrale1 */
 .container4 {
-  height: 1500px;
+  height: 500px;
   width: 100%;
   background-color: #f4f9fd;
   padding-left: 30%;
 }
 
 .subcontainer4 {
-  height: 35%;
+  height: 32%;
   width: 60%;
   float: left;
-  background-color: green;
   text-align: center;
   padding-bottom: 5%;
   padding-left: 5%;
@@ -253,5 +258,57 @@ li {
 }
 
 #powa {
-  font-size: 40px;
+  font-size: 35px;
 }
+
+#paragraph-powa {
+  font-size: 18px;
+}
+/* fine sezione centrale1 */
+
+/* sezione centrale 2 */
+.container5 {
+  height: 300px;
+  width: 100%;
+  background-color: brown;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.boxupleft {
+  height: 100%;
+  width: 27%;
+  float: left;
+  background-color: white;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-right: 6%;
+}
+
+.boxupright {
+  height: 100%;
+  width: 73%;
+  float: left;
+  background-color: white;
+  padding-top: 4%;
+}
+
+#book {
+  height: 140px;
+  width: 140px;
+}
+
+.buttonlearn {
+    background-color: #fe775a;
+    border-radius: 5px;
+    padding-right: 33%;
+    text-align: center;
+    color: white;
+    border: 1px solid #fe775a;
+    padding: 15px 30px;
+  }
+
+  .buttonlearn:hover {
+    background-color: white;
+    color: #fe775a;
+  }
