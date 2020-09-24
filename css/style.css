@@ -30,13 +30,19 @@ body {
   background-color: lightblue;
 }
 
+.container1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 /* sottocontainer nav sopra */
 .subcontainer1 {
   height: 100%;
   width: 100%;
   position: relative;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 12%;
+  padding-right: 12%;
   background-color: green;
 }
 
@@ -51,7 +57,7 @@ body {
   height: 100%;
   width: 50%;
   float: left;
-  padding-top: 2.5%;
+  padding-top: 2.2%;
   background-color: white;
 }
 
@@ -59,12 +65,58 @@ body {
   height: 100%;
   width: 50%;
   float: left;
-  padding-top: 2.5%;
+  padding-top: 2.2%;
   background-color: white;
   text-align: right;
 }
-/* lista opzioni container1 */
 /* FINE NAV SOPRA */
+
+/* INIZIO NAV SOTTO */
+/* container nav sotto */
+.container2 {
+  height: 80px;
+  background-color: lightblue;
+}
+
+.container2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* sottocontainer nav sotto */
+.subcontainer2 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color: green;
+}
+
+.subcontainer2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* lista opzioni container2 */
+.words-left2 {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding-top: 1.5%;
+  background-color: white;
+}
+
+.words-right2 {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding-top: 1.5%;
+  background-color: white;
+  text-align: right;
+}
 
 ul {
   list-style-type: none;
