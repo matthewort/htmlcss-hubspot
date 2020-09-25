@@ -437,24 +437,26 @@ p {
 
   .subcontainer7 {
     height: 60%;
-    width: 100%;
-    float: left;
+    width: 100%;;
     text-align: center;
-    background-color: grey;
+    background-color: white;
     margin-top: 4%;
     margin-bottom: 10%;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
   }
 
   .square1 {
-    height: 50%;
+    height: 49.9%;
     width: 24.8%;
     float: left;
     background-color: lightgrey;
+    margin-left: 0%;
     margin-right: 0.2%;
   }
 
   .square2 {
-    height: 50%;
+    height: 49.9%;
     width: 24.8%;
     float: left;
     background-color: lightgrey;
@@ -462,7 +464,7 @@ p {
   }
 
   .square3 {
-    height: 50%;
+    height: 49.9%;
     width: 24.8%;
     float: left;
     background-color: lightgrey;
@@ -470,9 +472,48 @@ p {
   }
 
   .square4 {
-    height: 50%;
+    height: 49.9%;
     width: 24.8%;
     float: left;
     background-color: lightgrey;
     margin-left: 0.2%;
+    margin-right: 0%;
+  }
+
+  .square5 {
+    height: 49.9%;
+    width: 24.8%;
+    float: left;
+    background-color: lightgrey;
+    margin-left: 0%;
+    margin-right: 0.2%;
+    margin-top: 0.1%;
+  }
+
+  .square6 {
+    height: 49.9%;
+    width: 24.8%;
+    float: left;
+    background-color: lightgrey;
+    margin-right: 0.1%;
+    margin-top: 0.1%;
+  }
+
+  .square7 {
+    height: 49.9%;
+    width: 24.8%;
+    float: left;
+    background-color: lightgrey;
+    margin-left: 0.1%;
+    margin-top: 0.1%;
+  }
+
+  .square8 {
+    height: 49.9%;
+    width: 24.8%;
+    float: left;
+    background-color: lightgrey;
+    margin-left: 0.2%;
+    margin-right: 0.1%;
+    margin-top: 0.1%;
   }
