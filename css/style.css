@@ -340,21 +340,25 @@ p {
   height: 100%;
   width: 28.5%;
   float: left;
+  text-align: center;
   background-color: white;
   margin-left: 3.25%;
   margin-right: 3.25%;
-  padding-left: 10.5%;
-  padding-top: 3%;
+  /* padding-left: 10.5%;
+  padding-top: 3%; */
+  padding: 3% 5%;
 }
 
 .boxright {
   height: 100%;
   width: 28.5%;
   float: left;
+  text-align: center;
   background-color: white;
   margin-left: 4%;
-  padding-left: 10.5%;
-  padding-top: 3%;
+  /* padding-left: 10.5%; */
+  /* padding-top: 3%; */
+  padding: 3% 5%;
 }
 
 #mrkt {
@@ -373,6 +377,7 @@ p {
   background-color: green;
   padding: 0 5;
   margin-left: 20%;
+  margin-top: 5%;
   background-color: transparent;
 
 }
