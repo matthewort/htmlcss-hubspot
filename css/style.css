@@ -441,7 +441,7 @@ p {
     text-align: center;
     background-color: black;
     margin-top: 4%;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     margin-left: 0.2%;
     margin-right: 0.2%;
   }
