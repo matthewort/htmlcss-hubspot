@@ -437,83 +437,104 @@ p {
 
   .subcontainer7 {
     height: 60%;
-    width: 100%;;
+    width: 100%;
     text-align: center;
-    background-color: white;
+    background-color: black;
     margin-top: 4%;
     margin-bottom: 10%;
     margin-left: 0.2%;
     margin-right: 0.2%;
   }
 
+  .subsubcontainer7 {
+    height: 100%;
+    width: 100%;
+  }
+
   .square1 {
-    height: 49.9%;
-    width: 24.8%;
+    height: 50%;
+    width: 25%;
     float: left;
     background-color: lightgrey;
-    margin-left: 0%;
-    margin-right: 0.2%;
+    /* margin-left: 0.1%;
+    margin-right: 0.2%; */
+    border-right: 2px solid white;
+    border-bottom: 1px solid white;
   }
 
   .square2 {
-    height: 49.9%;
-    width: 24.8%;
+    height: 50%;
+    width: 25%;
     float: left;
     background-color: lightgrey;
-    margin-right: 0.1%;
+    /* margin-right: 0.1%; */
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
   }
 
   .square3 {
-    height: 49.9%;
-    width: 24.8%;
+    height: 50%;
+    width: 25%;
     float: left;
     background-color: lightgrey;
-    margin-left: 0.1%;
+    /* margin-left: 0.1%; */
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
   }
 
   .square4 {
-    height: 49.9%;
-    width: 24.8%;
+    height: 50%;
+    width: 25%;
     float: left;
     background-color: lightgrey;
-    margin-left: 0.2%;
-    margin-right: 0%;
+    /* margin-left: 0.2%;
+    margin-right: 0.1%; */
+    border-left: 2px solid white;
+    border-bottom: 1px solid white;
   }
 
   .square5 {
-    height: 49.9%;
-    width: 24.8%;
+    height: 50%;
+    width: 25%;
     float: left;
     background-color: lightgrey;
-    margin-left: 0%;
+    /* margin-left: 0%;
     margin-right: 0.2%;
-    margin-top: 0.1%;
+    margin-top: 0.1%; */
+    border-right: 2px solid white;
+    border-top: 1px solid white;
   }
 
   .square6 {
-    height: 49.9%;
-    width: 24.8%;
+    height: 50%;
+    width: 25%;
     float: left;
     background-color: lightgrey;
-    margin-right: 0.1%;
-    margin-top: 0.1%;
+    /* margin-right: 0.1%;
+    margin-top: 0.1%; */
+    border-right: 1px solid white;
+    border-top: 1px solid white;
   }
 
   .square7 {
-    height: 49.9%;
-    width: 24.8%;
+    height: 50%;
+    width: 25%;
     float: left;
     background-color: lightgrey;
-    margin-left: 0.1%;
-    margin-top: 0.1%;
+    /* margin-left: 0.1%;
+    margin-top: 0.1%; */
+    border-left: 1px solid white;
+    border-top: 1px solid white;
   }
 
   .square8 {
-    height: 49.9%;
-    width: 24.8%;
+    height: 50%;
+    width: 25%;
     float: left;
     background-color: lightgrey;
-    margin-left: 0.2%;
+    /* margin-left: 0.2%;
     margin-right: 0.1%;
-    margin-top: 0.1%;
+    margin-top: 0.1%; */
+    border-left: 2px solid white;
+    border-top: 1px solid white;
   }
