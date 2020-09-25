@@ -312,6 +312,7 @@ p {
   background-color: white;
   color: #fe775a;
 }
+/* fine sezione centrale 2 */
 
 /* sezione centrale3 */
 .container6 {
@@ -324,6 +325,7 @@ p {
   padding-bottom: 5%;
 }
 
+/* colonna sinistra */
 .boxleft {
   height: 100%;
   width: 28.5%;
@@ -336,6 +338,7 @@ p {
   padding: 3% 5%;
 }
 
+ /* colonna centro */
 .boxcenter {
   height: 100%;
   width: 28.5%;
@@ -349,6 +352,7 @@ p {
   padding: 3% 5%;
 }
 
+/* colonna destra */
 .boxright {
   height: 100%;
   width: 28.5%;
@@ -361,11 +365,25 @@ p {
   padding: 3% 5%;
 }
 
+/* immagini colonne */
 #mrkt {
   height: 100px;
   width: 100px;
   text-align: center;
 }
+
+#sls {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+#srv {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+/* immagini colonne */
 
 .listb {
   text-align: left;
@@ -394,4 +412,63 @@ p {
   .buttonlearn2:hover {
     background-color: white;
     color: #fe775a;
+  }
+  /* fine sezione centrale3 */
+
+  /* sezione centrale4 */
+  .container7 {
+    height: 900px;
+    width: 100%;
+    background-color: rgb(74, 153, 203);
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #learn {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 4%;
+  }
+
+  #para7 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .subcontainer7 {
+    height: 60%;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: grey;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+
+  .square1 {
+    height: 30%;
+    width: 25%;
+    float: left;
+    background-color: lightgrey;
+  }
+
+  .square2 {
+    height: 30%;
+    width: 25%;
+    float: left;
+    background-color: lightgrey;
+  }
+
+  .square3 {
+    height: 30%;
+    width: 25%;
+    float: left;
+    background-color: lightgrey;
+  }
+
+  .square4 {
+    height: 30%;
+    width: 25%;
+    float: left;
+    background-color: lightgrey;
   }
