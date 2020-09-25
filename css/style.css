@@ -121,11 +121,11 @@ body {
 /* FINE NAV SOTTO */
 /* FINE HEADER */
 
-ul {
+.lista {
   list-style-type: none;
 }
 
-li {
+.a {
   display: inline-block;
   margin-right: 2%;
   margin-left: 2%;
@@ -328,10 +328,12 @@ p {
   height: 100%;
   width: 28.5%;
   float: left;
+  text-align: center;
   background-color: white;
   margin-right: 4%;
-  padding-left: 10.5%;
-  padding-top: 3%;
+  /* padding-left: 10.5%;
+  padding-top: 3%; */
+  padding: 3% 5%;
 }
 
 .boxcenter {
@@ -367,4 +369,10 @@ p {
   padding-right: 40%;
   padding-left: 0%;
   font-size: 15px;
+}
+
+.parboxleft {
+  height: 50%;
+  width: 50%;
+  background-color: green;
 }
