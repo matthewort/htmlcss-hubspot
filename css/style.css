@@ -308,10 +308,10 @@ p {
     padding: 15px 30px;
   }
 
-  .buttonlearn:hover {
-    background-color: white;
-    color: #fe775a;
-  }
+.buttonlearn:hover {
+  background-color: white;
+  color: #fe775a;
+}
 
 /* sezione centrale3 */
 .container6 {
@@ -363,16 +363,30 @@ p {
   text-align: center;
 }
 
-.parleft {
-  text-align: center;
-  padding-top: 0%;
-  padding-right: 40%;
-  padding-left: 0%;
-  font-size: 15px;
+.listb {
+  text-align: left;
 }
 
-.parboxleft {
-  height: 50%;
-  width: 50%;
+.learnbox {
+  height: auto;
+  width: 150px;
   background-color: green;
+  padding: 0 5;
+  margin-left: 20%;
+  background-color: transparent;
+
 }
+
+.buttonlearn2 {
+    background-color: #fe775a;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    border: 1px solid #fe775a;
+    padding: 15px 30px;
+  }
+
+  .buttonlearn2:hover {
+    background-color: white;
+    color: #fe775a;
+  }
