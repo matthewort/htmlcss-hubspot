@@ -662,11 +662,46 @@ p {
       /* margin-right: 70%; */
     }
 
+    #strt {
+      font-size: 38px;
+      padding-right: 30%;
+      padding-top: 8%;
+    }
+
+    #tools {
+      font-size: 20px;
+      padding-right: 30%;
+
+    }
+
+    .buttonB:hover {
+      background-color: white;
+      color: #fe775a;
+    }
+
+    .buttonB {
+      padding: 15px 30px;
+      background-color: #fe775a;
+      border-radius: 5px;
+      padding: 18px 35px;
+      text-align: center;
+      color: white;
+      border: 1px solid #fe775a;
+    }
+
     .subsubcontainer8downright {
       height: 100%;
       width: 40%;
       float: left;
       background-color: blue;
       /* margin-left: 30%; */
+    }
+
+    #woman {
+      height: auto;
+      width: 80%;
+      padding-top: 10%;
+      padding-left: 20%;
+      padding-right: 0%;
     }
     /* fine sottocontainer8 sotto */
