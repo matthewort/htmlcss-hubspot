@@ -786,14 +786,67 @@ p {
 /* fine sottocontainer9 sopra */
 /* sottocontainer9sotto */
     .subcontainerdown9 {
-      height: 40%;
+      height: 20%;
       width: 100%;
       /* text-align: center; */
-      background-color: lightblue;
+      background-color: cyan;
     }
 
     .boxe {
       height: 100%;
       weight: 100%;
+      background-color: red;
+      padding-left: 30%;
+      padding-top: 5%;
+    }
+
+    .lang {
+      display: inline;
+      padding-left: 2%;
+    }
+    /* fine sottocontainer9sotto */
+
+    /* subcontainerbottom9 */
+    .subcontainerbottom9 {
+      height: 20%;
+      width: 100%;
+      /* text-align: center; */
       background-color: white;
+    }
+
+    /* box di sinistra */
+    .boxfleft {
+      height: 100%;
+      width: 50%;
+      float: left;
+      background-color: cyan;
+    }
+    /* box di destra */
+    .boxfright {
+      height: 100%;
+      width: 50%;
+      float: left;
+      background-color: green;
+      padding-left: 34%;
+      padding-top: 2%;
+    }
+
+    .ab {
+      display: inline-block;
+      margin-right: 2%;
+      margin-left: 2%;
+      margin-top: 5%;
+      color: white;
+    }
+
+    #copyright {
+      margin-right: 2%;
+      margin-left: 2%;
+      color: white;
+    }
+
+    .nts{
+      display: inline;
+      margin-left: 16px;
+      color: white;
     }
