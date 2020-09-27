@@ -466,8 +466,8 @@ p {
     background-color: transparent;
     margin-top: 4%;
     /* margin-bottom: 10%; */
-    margin-left: 0.2%;
-    margin-right: 0.2%;
+    /* margin-left: 0.2%;
+    margin-right: 0.2%; */
   }
 
   .subsubcontainer7 {
@@ -610,8 +610,8 @@ p {
       width: 100%;
       text-align: center;
       background-color: yellow;
-      margin-left: 0.2%;
-      margin-right: 0.2%;
+      /* margin-left: 0.2%;
+      margin-right: 0.2%; */
     }
 
     .subsubcontainer8upleft {
@@ -650,8 +650,8 @@ p {
       height: 65%;
       width: 100%;
       background-color: orange;
-      margin-left: 0.2%;
-      margin-right: 0.2%;
+      /* margin-left: 0.2%;
+      margin-right: 0.2%; */
     }
 
     .subsubcontainer8downleft {
@@ -705,3 +705,88 @@ p {
       padding-right: 0%;
     }
     /* fine sottocontainer8 sotto */
+    /* FINE MAIN */
+
+    /* FOOTER */
+    /* inizio container9 */
+    .container9 {
+      height: 600px;
+      width: 100%;
+      background-color: darkblue;
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+    .subcontainerup9 {
+      height: 60%;
+      width: 100%;
+      /* text-align: center; */
+      background-color: lightblue;
+      padding-right: 7%;
+    }
+
+    .boxa {
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-color: orange;
+    }
+
+    .boxb {
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-color: yellow;
+    }
+
+    .boxc {
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-color: purple;
+    }
+
+    .boxd {
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-color: pink;
+    }
+
+    #traffic {
+      padding-bottom: 6%;
+      font-size: 20px;
+    }
+
+    #list{
+      padding-bottom: 5%;
+      font-size: 20px;
+    }
+
+    .buttonbottom {
+      background-color: #fe775a;
+      border-radius: 5px;
+      padding: 6px 15px;
+      text-align: center;
+      color: white;
+      border: 1px solid #fe775a;
+    }
+
+    .buttonbottom:hover {
+      background-color: white;
+      color: #fe775a;
+    }
+
+    .bbottom {
+      display: inline-block;
+      /* margin-right: 2%;
+      margin-left: 2%; */
+    }
+
+    .subcontainerdown9 {
+      height: 60%;
+      width: 100%;
+      /* text-align: center; */
+      background-color: lightblue;
+      padding-right: 7%;
+    }
