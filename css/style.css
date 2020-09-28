@@ -830,7 +830,7 @@ p {
     .container9 {
       height: 600px;
       width: 100%;
-      background-color: darkblue;
+      background-color: rgb(176,196,222);
       padding-left: 15%;
       padding-right: 15%;
     }
@@ -848,6 +848,7 @@ p {
     width: 25%;
     float: left;
     background-color: orange;
+    color: white;
     }
 
     .boxb {
@@ -855,6 +856,7 @@ p {
     width: 25%;
     float: left;
     background-color: yellow;
+    color: white;
     }
 
     .boxc {
@@ -862,6 +864,7 @@ p {
     width: 25%;
     float: left;
     background-color: purple;
+    color: white;
     }
 
     .boxd {
@@ -869,6 +872,7 @@ p {
     width: 25%;
     float: left;
     background-color: pink;
+    color: white;
     }
 
     #traffic {
