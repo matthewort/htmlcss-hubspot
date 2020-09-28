@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: transparent;
+  background-color: #1a363f;
 }
 
 /* HEADER */
@@ -680,9 +680,9 @@ p {
     }
 
     #purple {
-      height: auto;
-      width: 100%;
-      padding-top: 5%;
+      height: 80;
+      width: 80%;
+      padding-top: 11%;
     }
 
     #subaru {
@@ -830,7 +830,7 @@ p {
     .container9 {
       height: 600px;
       width: 100%;
-      background-color: rgb(176,196,222);
+      background-color: #1a363f;
       padding-left: 15%;
       padding-right: 15%;
     }
@@ -839,15 +839,16 @@ p {
       height: 60%;
       width: 100%;
       /* text-align: center; */
-      background-color: lightblue;
+      background-color: #1a363f;
       padding-right: 7%;
+      padding-top: 3%;
     }
 
     .boxa {
     height: 100%;
     width: 25%;
     float: left;
-    background-color: orange;
+    background-color: #1a363f;
     color: white;
     }
 
@@ -855,7 +856,7 @@ p {
     height: 100%;
     width: 25%;
     float: left;
-    background-color: yellow;
+    background-color: #1a363f;
     color: white;
     }
 
@@ -863,7 +864,7 @@ p {
     height: 100%;
     width: 25%;
     float: left;
-    background-color: purple;
+    background-color: #1a363f;
     color: white;
     }
 
@@ -871,18 +872,19 @@ p {
     height: 100%;
     width: 25%;
     float: left;
-    background-color: pink;
+    background-color: #1a363f;
     color: white;
     }
 
     #traffic {
       padding-bottom: 6%;
-      font-size: 20px;
+      font-size: 18px;
+      font-weight: bold;
     }
 
     #list{
       padding-bottom: 5%;
-      font-size: 20px;
+      font-size: 16px;
     }
 
     .buttonbottom {
@@ -916,9 +918,10 @@ p {
     .boxe {
       height: 100%;
       weight: 100%;
-      background-color: red;
+      background-color: #1a363f;
       padding-left: 30%;
       padding-top: 5%;
+      color: white;
     }
 
     .lang {
@@ -940,14 +943,14 @@ p {
       height: 100%;
       width: 50%;
       float: left;
-      background-color: cyan;
+      background-color: #1a363f;
     }
     /* box di destra */
     .boxfright {
       height: 100%;
       width: 50%;
       float: left;
-      background-color: green;
+      background-color: #1a363f;
       padding-left: 34%;
       padding-top: 2%;
     }
@@ -969,5 +972,9 @@ p {
     .nts{
       display: inline;
       margin-left: 16px;
+      color: white;
+    }
+
+    #line {
       color: white;
     }
