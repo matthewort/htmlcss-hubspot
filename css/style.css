@@ -642,6 +642,62 @@ p {
       background-color: lightblue;
       /* margin-left: 30%; */
     }
+
+    .box1 {
+      height: 50%;
+      width: 25%;
+      float: left;
+      background-color: white;
+    }
+
+    .box2 {
+      height: 50%;
+      width: 25%;
+      float: left;
+      background-color: red;
+    }
+
+    .box3 {
+      height: 50%;
+      width: 25%;
+      float: left;
+      background-color: cyan;
+    }
+
+    .box4 {
+      height: 50%;
+      width: 25%;
+      float: left;
+      background-color: blue;
+    }
+
+    .box5 {
+      height: 50%;
+      width: 25%;
+      float: left;
+      background-color: yellow;
+    }
+
+    .box6 {
+      height: 50%;
+      width: 25%;
+      float: left;
+      background-color: brown;
+    }
+
+    .box7 {
+      height: 50%;
+      width: 25%;
+      float: left;
+      background-color: pink;
+    }
+
+    .box8 {
+      height: 50%;
+      width: 25%;
+      float: left;
+      background-color: orange;
+    }
     /* fine sottocontainer8 sopra */
 
 
@@ -765,12 +821,12 @@ p {
     }
 
     .buttonbottom {
-      background-color: #fe775a;
+      background-color: white;
       border-radius: 5px;
       padding: 10px 15px;
       text-align: center;
-      color: white;
-      border: 1px solid #fe775a;
+      color: black;
+      border: 1px solid white;
     }
 
     .buttonbottom:hover {
