@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: brown;
+  background-color: transparent;
 }
 
 /* HEADER */
@@ -44,7 +44,7 @@ body {
   position: relative;
   padding-left: 12%;
   padding-right: 12%;
-  background-color: green;
+  background-color: #f4f9fd;
 }
 
 .subcontainer1::after {
@@ -92,7 +92,7 @@ body {
   position: relative;
   padding-left: 12%;
   padding-right: 12%;
-  background-color: green;
+  background-color: white;
 }
 
 .subcontainer2::after {
@@ -127,8 +127,17 @@ body {
 
 .a {
   display: inline-block;
-  margin-right: 2%;
-  margin-left: 2%;
+  margin-right: 1.5%;
+  /* margin-left: 2%; */
+}
+
+#pencil {
+  font-size: 20px;
+  color: rgb(0, 139, 139);
+}
+
+#tendina {
+  margin-right: 1.5%;
 }
 
 p {
@@ -276,7 +285,7 @@ p {
 .container5 {
   height: 300px;
   width: 100%;
-  background-color: orange;
+  background-color: #f4f9fd;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -324,13 +333,15 @@ p {
   background-color: white;
   color: #fe775a;
 }
+
+
 /* fine sezione centrale 2 */
 
 /* sezione centrale3 */
 .container6 {
   height: 760px;
   width: 100%;
-  background-color: orange;
+  background-color: #f4f9fd;
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 3%;
@@ -598,7 +609,7 @@ p {
     .container8 {
         height: 810px;
         width: 100%;
-        background-color: green;
+        background-color: white;
         padding-left: 15%;
         padding-right: 15%;
     }
@@ -618,7 +629,7 @@ p {
       height: 100%;
       width: 30%;
       float: left;
-      background-color: purple;
+      background-color: white;
       padding-top: 3.5%;
       padding-left: 6.8%;
       padding-right: 6.8%;
@@ -704,49 +715,49 @@ p {
       height: 50%;
       width: 25%;
       float: left;
-      background-color: red;
+      background-color: white;
     }
 
     .box3 {
       height: 50%;
       width: 25%;
       float: left;
-      background-color: cyan;
+      background-color: white;
     }
 
     .box4 {
       height: 50%;
       width: 25%;
       float: left;
-      background-color: blue;
+      background-color: white;
     }
 
     .box5 {
       height: 50%;
       width: 25%;
       float: left;
-      background-color: yellow;
+      background-color: white;
     }
 
     .box6 {
       height: 50%;
       width: 25%;
       float: left;
-      background-color: brown;
+      background-color: white;
     }
 
     .box7 {
       height: 50%;
       width: 25%;
       float: left;
-      background-color: pink;
+      background-color: white;
     }
 
     .box8 {
       height: 50%;
       width: 25%;
       float: left;
-      background-color: orange;
+      background-color: white;
     }
     /* fine sottocontainer8 sopra */
 
@@ -799,7 +810,7 @@ p {
       height: 100%;
       width: 40%;
       float: left;
-      background-color: blue;
+      background-color: white;
       /* margin-left: 30%; */
     }
 
