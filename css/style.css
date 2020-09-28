@@ -650,6 +650,56 @@ p {
       background-color: white;
     }
 
+    #atlassian {
+      height: auto;
+      width: 100%;
+      padding-top: 25%;
+    }
+
+    #doordash {
+      height: auto;
+      width: 100%;
+      padding-top: 25%;
+    }
+
+    #crowd {
+      height: auto;
+      width: 100%;
+      padding-top: 20%;
+    }
+
+    #purple {
+      height: auto;
+      width: 100%;
+      padding-top: 5%;
+    }
+
+    #subaru {
+      height: auto;
+      width: 100%;
+      padding-top: 15%;
+    }
+
+    #wistia {
+      height: auto;
+      width: 100%;
+      padding-top: 23%;
+    }
+
+    #classpass {
+      height: auto;
+      width: 100%;
+      padding-top: 14%;
+    }
+
+    #vmware {
+      height: auto;
+      width: 100%;
+      padding-top: 19%;
+    }
+
+
+
     .box2 {
       height: 50%;
       width: 25%;
